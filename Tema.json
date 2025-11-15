@@ -1,0 +1,110 @@
+{
+  "name": "Fallout 4 Terminal - Catppuccin Mocha",
+  "description": "A theme inspired by Fallout 4's terminals with Catppuccin Mocha colors!",
+  "version": "4.0.0",
+  "authors": [
+    {
+      "name": "Bates",
+      "id": "137259132305539072"
+    },
+    {
+      "name": "Nyxx-Star",
+      "id": "YOUR_ID_HERE"
+    }
+  ],
+  "source": "https://github.com/B4T3S/Fallout4TerminalTheme",
+  "website": "https://B4T3S.github.io/Fallout4TerminalTheme",
+  "donate": "https://www.paypal.com/paypalme/floriancegledi",
+  "patreon": "https://patreon.com/bates",
+  "invite": "6qd3SkP6Ch",
+  
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": "#11111b",
+    "BACKGROUND_SECONDARY": "#1e1e2e",
+    "BACKGROUND_TERTIARY": "#181825",
+    "TEXT_NORMAL": "#cba6f7",
+    "TEXT_MUTED": "#a6adc8",
+    "INTERACTIVE_NORMAL": "#cba6f7",
+    "INTERACTIVE_HOVER": "#f5c2e7",
+    "INTERACTIVE_ACTIVE": "#f5c2e7"
+  },
+
+  "colors": {
+    "PRIMARY_DARK": "#11111b",
+    "PRIMARY_DARK_100": "#1e1e2e",
+    "PRIMARY_DARK_200": "#181825",
+    "PRIMARY_DARK_300": "#313244",
+    "PRIMARY_DARK_360": "#11111b",
+    "PRIMARY_DARK_400": "#1e1e2e",
+    "PRIMARY_DARK_500": "#1e1e2e",
+    "PRIMARY_DARK_600": "#11111b",
+    "PRIMARY_DARK_630": "#11111b",
+    "PRIMARY_DARK_700": "#11111b",
+    "PRIMARY_DARK_800": "#11111b",
+    
+    "BRAND_NEW": "#89b4fa",
+    "BRAND_500": "#89b4fa",
+    
+    "BACKGROUND_MENTIONED": "#f5c2e726",
+    "BACKGROUND_MESSAGE_HOVER": "#cba6f710",
+    
+    "HEADER_PRIMARY": "#89b4fa",
+    "HEADER_SECONDARY": "#cba6f7",
+    
+    "CHANNELS_DEFAULT": "#a6adc8",
+    
+    "STATUS_ONLINE": "#a6e3a1",
+    "STATUS_IDLE": "#f9e2af",
+    "STATUS_DND": "#f38ba8",
+    "STATUS_STREAMING": "#cba6f7",
+    
+    "SPOTIFY_COLOR": "#a6e3a1",
+    "BUTTON_OUTLINE_BRAND_BORDER": "#89b4fa",
+    "BUTTON_OUTLINE_BRAND_TEXT": "#89b4fa",
+    
+    "MODAL_BACKGROUND": "#11111b",
+    "BACKGROUND_FLOATING": "#11111b"
+  },
+
+  "raws": {
+    "custom_css": `
+      @import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
+      @import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
+      
+      :root, .visual-refresh, .visual-refresh.theme-dark {
+        --rgb-highlight: 137, 180, 250;
+        --rgb-background: 17, 17, 27;
+        --rgb-text: 203, 166, 247;
+        --rgb-close-button: 243, 139, 168;
+        --rgb-online-color: 166, 227, 161;
+        --rgb-afk-color: 249, 226, 175;
+        --rgb-dnd-color: 243, 139, 168;
+        --rgb-streaming-color: 203, 166, 247;
+        
+        --transition-time: .3s;
+        --background-image: unset;
+        --background-position: center;
+        --background-size: cover;
+        --background-blur: 5px;
+        --background-brightness: 100%;
+        
+        --show-original-title: 0;
+        --show-custom-title: 1;
+        --custom-title-text: "nyxx-star Industries";
+        --custom-title-font-size: 10px;
+        --custom-title-font-weight: bold;
+        --custom-title-margin-top: 0px;
+        --custom-title-margin-left: 3px;
+      }
+    `
+  },
+
+  "spec": 1,
+  "background": {
+    "type": "image",
+    "url": "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/vertical.png",
+    "blur": 5,
+    "brightness": 0.8,
+    "opacity": 0.2
+  }
+  }
